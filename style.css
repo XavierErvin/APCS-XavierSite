@@ -39,29 +39,36 @@ header nav ul li {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .project h2 {
   font-size: 1.5em;
   margin-bottom: 10px'
 
-}
 
+}
+.project {
+  border-bottom: 1px solid #000;
+}
 .clear {
   clear: both;
 }
 
-a {
-  color: rgb(#ff932e);
-}
 
-a:hover {
-  color: rgb(#2e7eff);
-
-}
 
 #project-container, #aboutme {
 margin: 0 auto; 
 width: 90%;
 max-width: 600px;
 }
+
+a {
+  color: #fa623e;
+}
+
+a:hover{
+  color: #e0ff47;
+}
+ 
+
